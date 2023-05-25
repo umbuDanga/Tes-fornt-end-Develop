@@ -14,11 +14,11 @@ Currently working with Robotic Process Automation, but I love learn new thing in
 ### Stats:
 <details>
  <summary><strong>hari saya akan mengerjakan tes logika yang merupakan persyaratan magang di finplan</strong></summary>
-    - 🔭 <E>Buat fungsi dengan menampilkan bilangan cacah kelipatan 3 atau 7 sebanyak N, serta menampilkan huruf Z saat bilangan tersebut kelipatan 3 dan 7.
+    <summary><strong>Buat fungsi dengan menampilkan bilangan cacah kelipatan 3 atau 7 sebanyak N, serta menampilkan huruf Z saat bilangan tersebut kelipatan 3 dan 7.
   Contoh :
   N = 13
-  Output : 3, 6, 7, 9, 12, 14, 15, 18, Z, 24, 27, 28, 30 
-  <E>jawaban : 
+  Output : 3, 6, 7, 9, 12, 14, 15, 18, Z, 24, 27, 28, 30 </strong></summary>
+    - 🔭 jawaban : 
     Berikut adalah penjelasan singkat dari coding tersebut:
     1 Fungsi generate_numbers memiliki satu parameter input, yaitu N.
     2 Pada awalnya, dibuat sebuah list kosong dengan nama numbers untuk menyimpan hasil bilangan cacah.
