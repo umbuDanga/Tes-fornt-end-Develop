@@ -8,7 +8,7 @@ Currently working with Robotic Process Automation, but I love learn new thing in
     <img src="https://img.shields.io/badge/Code-Swift-blue?&logo=swift" />
     <img src="https://img.shields.io/badge/IDE-Xcode-blue?&logo=xcode" />
     <img src="https://img.shields.io/badge/Text%20Editor-Visual%20Studio%20Code-blue?&logo=visual%20studio%20code&logoColor=blue" />
-    <img src="https://gpvc.arturio.dev/bagusfe" />
+   
 </p>
 
 ### Stats:
@@ -28,8 +28,7 @@ Currently working with Robotic Process Automation, but I love learn new thing in
     6 Jika bilangan tersebut hanya kelipatan 3 atau 7 (habis dibagi 3 atau 7), maka bilangan itu sendiri akan ditambahkan ke dalam list numbers.
     7 Setelah semua bilangan diperiksa, list numbers yang berisi bilangan cacah dan 'Z' (sesuai dengan kondisi) dikembalikan sebagai output dari fungsi.
     8 Dilakukan penggunaan fungsi dengan contoh penggunaan di mana N = 13.
-      9 Output dari fungsi generate_numbers akan ditampilkan.
-     
+    9 Output dari fungsi generate_numbers akan ditampilkan.
   <img src= "Tes Logika Front end Develop/menampilkan bilangan cacah.jpg"</br>
     - 🌱 I’m currently learning Python,SwiftUI and UIKit </br>
     - 👯 I’m looking to collaborate on Automation Project, Mobile Apps. </br>
