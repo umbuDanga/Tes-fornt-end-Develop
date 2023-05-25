@@ -14,11 +14,11 @@ Currently working with Robotic Process Automation, but I love learn new thing in
 ### Stats:
 <details>
  <summary><strong>hari saya akan mengerjakan tes logika yang merupakan persyaratan magang di finplan</strong></summary>
-    - 🔭 Buat fungsi dengan menampilkan bilangan cacah kelipatan 3 atau 7 sebanyak N, serta menampilkan huruf Z saat bilangan tersebut kelipatan 3 dan 7.
+    - 🔭 <E>Buat fungsi dengan menampilkan bilangan cacah kelipatan 3 atau 7 sebanyak N, serta menampilkan huruf Z saat bilangan tersebut kelipatan 3 dan 7.
   Contoh :
   N = 13
   Output : 3, 6, 7, 9, 12, 14, 15, 18, Z, 24, 27, 28, 30 
-  jawaban : 
+  <E>jawaban : 
     Berikut adalah penjelasan singkat dari coding tersebut:
     1 Fungsi generate_numbers memiliki satu parameter input, yaitu N.
     2 Pada awalnya, dibuat sebuah list kosong dengan nama numbers untuk menyimpan hasil bilangan cacah.
@@ -28,7 +28,8 @@ Currently working with Robotic Process Automation, but I love learn new thing in
     6 Jika bilangan tersebut hanya kelipatan 3 atau 7 (habis dibagi 3 atau 7), maka bilangan itu sendiri akan ditambahkan ke dalam list numbers.
     7 Setelah semua bilangan diperiksa, list numbers yang berisi bilangan cacah dan 'Z' (sesuai dengan kondisi) dikembalikan sebagai output dari fungsi.
     8 Dilakukan penggunaan fungsi dengan contoh penggunaan di mana N = 13.
-    9 Output dari fungsi generate_numbers akan ditampilkan.
+      9 Output dari fungsi generate_numbers akan ditampilkan.</br>
+     
   <img src= "Tes Logika Front end Develop/menampilkan bilangan cacah.jpg"</br>
     - 🌱 I’m currently learning Python,SwiftUI and UIKit </br>
     - 👯 I’m looking to collaborate on Automation Project, Mobile Apps. </br>
