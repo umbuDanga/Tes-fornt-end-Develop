@@ -1,7 +1,7 @@
 # Tes-fornt-end-Develop
 # Hi pekenalkan saya Sendi Umbu Danga Elu
 
-Currently working with Robotic Process Automation, but I love learn new thing in programming such as Javascript, Swift, Python.  
+"Dokumentasikan perjalananmu dalam kode."  
 
 ### Tools:
 <p>
@@ -94,7 +94,10 @@ Currently working with Robotic Process Automation, but I love learn new thing in
     Output dari fungsi generate_pattern akan ditampilkan dalam bentuk tabel.
     <img src= "Tes Logika Front end Develop/Imputan N dengan N.jpg"</br>
 </details>
+## refrensi
+</details>
 <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=bagusfe&hide=contribs,prs&show_icons=true&hide_border=true&title_color=000" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bagusfe&layout=compact" height=180 />
+   <src="https://repository.unmul.ac.id/bitstream/handle/123456789/4927/Buku%20Algoritma%20dan%20Pemrograman.pdf?sequence=1">
+   <scr="https://ocw.upj.ac.id/files/GBPP-TIF301-Handout-DPBO.pdf">
+   <scr="[https://ocw.upj.ac.id/files/GBPP-TIF301-Handout-DPBO.pdf](https://jagongoding.com/python/latihan-logika/bilangan-prima/)">
 </p>
