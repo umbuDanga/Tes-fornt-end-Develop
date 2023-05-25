@@ -30,7 +30,22 @@ Currently working with Robotic Process Automation, but I love learn new thing in
     8 Dilakukan penggunaan fungsi dengan contoh penggunaan di mana N = 13.
     9 Output dari fungsi generate_numbers akan ditampilkan.
   <img src= "Tes Logika Front end Develop/menampilkan bilangan cacah.jpg"</br>
-    - 🌱 I’m currently learning Python,SwiftUI and UIKit </br>
+    <summary><strong>Buat fungsi pencarian ‘sang gajah’, ‘serigala’, ‘harimau’.
+        Dengan contoh masukan dan keluaran sebagai berikut :
+        Input	: Berikut adalah kisah sang gajah. Sang gajah memiliki teman serigala bernama DoeSang. Gajah sering dibela oleh serigala ketika harimau mendekati gajah.
+        Output	: sang gajah - sang gajah - serigala - serigala - harimau </strong></summary>
+    - 🌱 jawaban : Berikut adalah penjelasan singkat dari coding tersebut:
+    Fungsi cari_kata memiliki satu parameter input, yaitu teks yang merupakan teks yang akan diperiksa,
+    Pada awalnya, dibuat sebuah list kata_kunci yang berisi kata-kata kunci yang akan dicari dalam teks,
+    Selanjutnya, dibuat list kosong hasil yang akan digunakan untuk menyimpan hasil pencarian kata-kata kunci,
+    Dilakukan perulangan menggunakan for untuk setiap kata kunci dalam kata_kunci,
+    Di dalam perulangan, dilakukan pencarian jumlah kemunculan kata kunci dalam teks menggunakan fungsi count(),
+    Jika ditemukan kemunculan kata kunci, kata kunci tersebut akan ditambahkan sebanyak jumlah kemunculannya ke dalam list hasil menggunakan metode extend(),
+    Setelah semua kata kunci diperiksa, list hasil diubah menjadi string dengan menggunakan metode ' - '.join(hasil), yang memisahkan setiap elemen dalam list dengan tanda "-",
+    Hasil yang telah diubah menjadi string tersebut dikembalikan sebagai output dari fungsi,
+    Dilakukan penggunaan fungsi dengan contoh penggunaan di mana teks adalah teks yang diberikan,
+    Output dari fungsi cari_kata akan ditampilkan. 
+    <img src= "Tes Logika Front end Develop/menampilkan bilangan cacah.jpg"</br>
     - 👯 I’m looking to collaborate on Automation Project, Mobile Apps. </br>
     - 🤔 I’m looking for help with master of programming. hehe </br>
     - 💬 Ask me about anything.</br>
