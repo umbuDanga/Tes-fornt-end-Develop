@@ -94,10 +94,10 @@
     Output dari fungsi generate_pattern akan ditampilkan dalam bentuk tabel.
     <img src= "Tes Logika Front end Develop/Imputan N dengan N.jpg"</br>
 </details>
-## refrensi
+# refrensi
 </details>
 <p>
-   <src="https://repository.unmul.ac.id/bitstream/handle/123456789/4927/Buku%20Algoritma%20dan%20Pemrograman.pdf?sequence=1">
-   <scr="https://ocw.upj.ac.id/files/GBPP-TIF301-Handout-DPBO.pdf">
-   <scr="[https://ocw.upj.ac.id/files/GBPP-TIF301-Handout-DPBO.pdf](https://jagongoding.com/python/latihan-logika/bilangan-prima/)">
+    <a href="https://repository.unmul.ac.id/bitstream/handle/123456789/4927/Buku%20Algoritma%20dan%20Pemrograman.pdf?sequence=1" /></a>
+    <a href="https://ocw.upj.ac.id/files/GBPP-TIF301-Handout-DPBO.pdf" /></a>
+    <a href="https://ocw.upj.ac.id/files/GBPP-TIF301-Handout-DPBO.pdf](https://jagongoding.com/python/latihan-logika/bilangan-prima/)" /></a>
 </p>
