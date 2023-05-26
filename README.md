@@ -1,103 +1,262 @@
 # Tes-fornt-end-Develop
 # Hi pekenalkan saya Sendi Umbu Danga Elu
 
-"Dokumentasikan perjalananmu dalam kode."  
+# Task-Magang-FrontEnd-Finplan
 
-### Tools:
-<p>
-    <img src="https://img.shields.io/badge/OS-MacOS-blue?&logo=apple" />
-    <img src="https://img.shields.io/badge/Code-Swift-blue?&logo=swift" />
-    <img src="https://img.shields.io/badge/IDE-Xcode-blue?&logo=xcode" />
-    <img src="https://img.shields.io/badge/Text%20Editor-Visual%20Studio%20Code-blue?&logo=visual%20studio%20code&logoColor=blue" />
-   
-</p>
+1. Buat fungsi dengan menampilkan bilangan cacah kelipatan 3 atau 7 sebanyak N, serta menampilkan huruf Z saat bilangan tersebut kelipatan 3 dan 7.
+    
+    Contoh :
+    
+    N = 13
+    
+    Output : 3, 6, 7, 9, 12, 14, 15, 18,
+    
+    **Z**
+    
+    , 24, 27, 28, 30
+    
+    ### Jawaban
+    
+    ```jsx
+    //function bilangan cacah
+        const n = ()=>{
+        for (let i = 3; i <= 30; i++) {
+            if (i % 3 == 0 && i % 7 == 0) {
+            console.info('Z');
+            } else if (i % 3 == 0 && i % 7 != 0) {
+            console.info(i);
+            } else if (i % 3 != 0 && i % 7 == 0) {
+            console.info(i);
+            }
+        }
+      }
+        n();
+    
+        //output
+        3
+        6
+        7
+        9
+        12
+        14
+        15
+        18
+        Z    
+        24
+        27
+        28
+        30
+    
+    let n = 4
+    while(n < 10){
+    n* = n/2
+    return
+    }
+    
+    a.64.0
+    b.32.0
+    c.12.0
+    d.none above
+    
+    ```
+    
+    Referensi : keyword FizzBuzz
+    
+2. Buat fungsi pencarian ‘sang gajah’, ‘serigala’, ‘harimau’.
+    
+    Dengan contoh masukan dan keluaran sebagai berikut :
+    
+    Input	: Berikut adalah kisah sang gajah. Sang gajah memiliki teman serigala bernama DoeSang. Gajah sering dibela oleh serigala ketika harimau mendekati gajah.
+    Output	: sang gajah - sang gajah - serigala - serigala - harimau
+    
+    ### Jawaban
+    
+    ```jsx
+    const sangGajah = () => {
+      const str =
+        'Berikut adalah kisah sang gajah. Sang gajah memiliki teman serigala bernama DoeSang. Gajah sering dibela oleh serigala ketika harimau mendekati gajah';
+    
+      console.info(
+        str
+          .match(/sang gajah|serigala|harimau/gi)
+          .join(' - ')
+          .toLowerCase()
+      );
+    };
+    
+    sangGajah();
+    
+    //Output:
+    // sang gajah - sang gajah - serigala - serigala - harimau
+    ```
+    
+    Referensi : [https://www.facebook.com/codingtute/posts/javascript-string-methods-cheat-sheet-save-the-postdownload-the-pdf-file-from-th/208448061196891/](https://www.facebook.com/codingtute/posts/javascript-string-methods-cheat-sheet-save-the-postdownload-the-pdf-file-from-th/208448061196891/)
+    
+3. Buatlah fungsi pengecekan kata sandi, dengan ketentuan sebagai
+- Kata sandi minimal 8 karakter
+- Kata sandi maksimal 32 karakter
+- Karakter awal tidak boleh angka
+- Harus memiliki angka
+- Harus memiliki huruf kapital dan huruf kecil
+    
+    Contoh
+    
+    Input : 5andiwara
+    
+    Output : Karakter awal tidak boleh angka
+    
+    Input : sandiwar4
+    
+    Output : Harus memiliki huruf kapital dan huruf kecil
+    
+    Input : Sandiwar4
+    
+    Output : Kata sandi valid
+    
 
-### Stats:
-<details>
- <summary><strong>hari saya akan mengerjakan tes logika yang merupakan persyaratan magang di finplan</strong></summary>
-    <summary><strong>Buat fungsi dengan menampilkan bilangan cacah kelipatan 3 atau 7 sebanyak N, serta menampilkan huruf Z saat bilangan tersebut kelipatan 3 dan 7.
-  Contoh :
-  N = 13
-  Output : 3, 6, 7, 9, 12, 14, 15, 18, Z, 24, 27, 28, 30 </strong></summary>
-    - 🔭 jawaban : 
-    Berikut adalah penjelasan singkat dari coding tersebut:
-    1 Fungsi generate_numbers memiliki satu parameter input, yaitu N.
-    2 Pada awalnya, dibuat sebuah list kosong dengan nama numbers untuk menyimpan hasil bilangan cacah.
-    3 Dilakukan perulangan menggunakan for dari 1 hingga N+1.
-    4 Di dalam perulangan, dilakukan pengecekan kondisi untuk setiap bilangan
-    5 Jika bilangan tersebut kelipatan 3 dan 7 (habis dibagi 3 dan 7), maka 'Z' akan ditambahkan ke dalam list numbers.
-    6 Jika bilangan tersebut hanya kelipatan 3 atau 7 (habis dibagi 3 atau 7), maka bilangan itu sendiri akan ditambahkan ke dalam list numbers.
-    7 Setelah semua bilangan diperiksa, list numbers yang berisi bilangan cacah dan 'Z' (sesuai dengan kondisi) dikembalikan sebagai output dari fungsi.
-    8 Dilakukan penggunaan fungsi dengan contoh penggunaan di mana N = 13.
-    9 Output dari fungsi generate_numbers akan ditampilkan.
-  <img src= "Tes Logika Front end Develop/menampilkan bilangan cacah.jpg"</br>
-    <summary><strong>Buat fungsi pencarian ‘sang gajah’, ‘serigala’, ‘harimau’.
-        Dengan contoh masukan dan keluaran sebagai berikut :
-        Input	: Berikut adalah kisah sang gajah. Sang gajah memiliki teman serigala bernama DoeSang. Gajah sering dibela oleh serigala ketika harimau mendekati gajah.
-        Output	: sang gajah - sang gajah - serigala - serigala - harimau </strong></summary>
-    - 🌱 jawaban : Berikut adalah penjelasan singkat dari coding tersebut:
-    Fungsi cari_kata memiliki satu parameter input, yaitu teks yang merupakan teks yang akan diperiksa,
-    Pada awalnya, dibuat sebuah list kata_kunci yang berisi kata-kata kunci yang akan dicari dalam teks,
-    Selanjutnya, dibuat list kosong hasil yang akan digunakan untuk menyimpan hasil pencarian kata-kata kunci,
-    Dilakukan perulangan menggunakan for untuk setiap kata kunci dalam kata_kunci,
-    Di dalam perulangan, dilakukan pencarian jumlah kemunculan kata kunci dalam teks menggunakan fungsi count(),
-    Jika ditemukan kemunculan kata kunci, kata kunci tersebut akan ditambahkan sebanyak jumlah kemunculannya ke dalam list hasil menggunakan metode extend(),
-    Setelah semua kata kunci diperiksa, list hasil diubah menjadi string dengan menggunakan metode ' - '.join(hasil), yang memisahkan setiap elemen dalam list dengan tanda "-",
-    Hasil yang telah diubah menjadi string tersebut dikembalikan sebagai output dari fungsi,
-    Dilakukan penggunaan fungsi dengan contoh penggunaan di mana teks adalah teks yang diberikan,
-    Output dari fungsi cari_kata akan ditampilkan. 
-    <img src= "Tes Logika Front end Develop/menampilkan huruf.jpg"</br>
-    <summary><strong>Buatlah fungsi pengecekan kata sandi, dengan ketentuan sebagai 
-        Kata sandi minimal 8 karakter
-        Kata sandi maksimal 32 karakter
-        Karakter awal tidak boleh angka
-        Harus memiliki angka
-        Harus memiliki huruf kapital dan huruf kecil </strong></summary>
-    - 👯 Jawaban: Berikut adalah penjelasan singkat dari coding tersebut:
-    Fungsi cek_kata_sandi memiliki satu parameter input, yaitu kata_sandi yang merupakan kata sandi yang akan diperiksa.
-    Pertama, dilakukan pengecekan panjang kata sandi menggunakan len(kata_sandi). Jika panjang kata sandi kurang dari 8 karakter atau lebih dari 32 karakter, fungsi akan
-    mengembalikan pesan "Kata sandi harus terdiri dari 8 hingga 32 karakter."
-    Selanjutnya, dilakukan pengecekan karakter awal kata sandi menggunakan kata_sandi[0].isdigit(). Jika karakter awal adalah angka, fungsi akan mengembalikan pesan "Karakter awal tidak boleh angka."
-    Dilakukan pengecekan apakah kata sandi mengandung angka menggunakan any(char.isdigit() for char in kata_sandi). Jika tidak terdapat angka dalam kata sandi, fungsi akan
-    mengembalikan pesan "Kata sandi harus memiliki angka."
-    Dilakukan pengecekan apakah kata sandi memiliki kombinasi huruf kapital dan huruf kecil menggunakan any(char.isupper() for char in kata_sandi) dan any(char.islower()
-    for char in kata_sandi). Jika tidak terdapat huruf kapital atau huruf kecil, fungsi akan mengembalikan pesan "Kata sandi harus memiliki huruf kapital dan huruf kecil."
-    Jika semua pengecekan di atas berhasil, fungsi akan mengembalikan pesan "Kata sandi valid."
-    Dilakukan penggunaan fungsi dengan contoh penggunaan di mana kata_sandi1, kata_sandi2, dan kata_sandi3 adalah kata sandi yang diberikan.
-    Output dari fungsi cek_kata_sandi akan ditampilkan.
-   <img src= "Tes Logika Front end Develop/mengecek kata sandi.jpg"</br>
-    <summary><strong>Buat fungsi pengecekan bilangan cacah terkecil yang tidak ada dari data yang diinputkan. Dengan contoh input dan output</strong></summary>
-    - 🤔 jawaban: Berikut adalah penjelasan singkat dari coding tersebut:
-    Fungsi cek_bilangan_terkecil memiliki satu parameter input, yaitu data yang merupakan list bilangan cacah.
-    Pertama, list data diubah menjadi sebuah set menggunakan data_set = set(data). Set digunakan untuk memudahkan pencarian elemen yang ada dalam list.
-    Selanjutnya, variabel i diinisialisasi dengan nilai 1.
-    Dilakukan perulangan menggunakan while True untuk mencari bilangan cacah terkecil yang tidak ada dalam set data_set.
-    Pada setiap iterasi, dilakukan pengecekan apakah bilangan i tidak ada dalam data_set menggunakan i not in data_set. Jika tidak ada, maka bilangan i merupakan bilangan
-    cacah terkecil yang tidak ada dalam data, dan fungsi akan mengembalikan nilai i.
-    Jika bilangan i ada dalam data_set, maka nilai i akan ditambahkan dengan 1 menggunakan i += 1 dan perulangan akan dilanjutkan.
-    Dilakukan penggunaan fungsi dengan contoh penggunaan di mana data1, data2, dan data3 adalah list bilangan cacah yang diberikan.
-    Output dari fungsi cek_bilangan_terkecil akan ditampilkan.
-    <img src= "Tes Logika Front end Develop/mengecek bilangan cacah.jpg"</br>
-    <summary><strong>Buat pola berikut sesuai inputan N, dengan N adalah bilangan ganjil</strong></summary>
-    - 💬 Jawaban: Berikut adalah penjelasan singkat dari coding tersebut:
-    Fungsi generate_pattern memiliki satu parameter input, yaitu N yang merupakan bilangan ganjil.
-    Pertama, dilakukan pengecekan apakah N merupakan bilangan genap menggunakan if N % 2 == 0. Jika N adalah bilangan genap, maka fungsi akan mengembalikan pesan "Harus bilangan ganjil".
-    Selanjutnya, dibuat sebuah list kosong bernama pattern yang akan menyimpan pola.
-    Dilakukan perulangan dengan for i in range(N) untuk membentuk baris-baris pada pola.
-    Pada setiap iterasi, dibuat sebuah variabel row yang awalnya berisi string kosong.
-    Dilakukan perulangan lagi dengan for j in range(N) untuk membentuk karakter-karakter dalam satu baris pada pola.
-    Pada setiap iterasi dalam perulangan j, dilakukan pengecekan apakah posisi (i, j) berada pada diagonal utama (i == j) atau diagonal sebaliknya (i == N - j - 1). Jika iya, maka karakter pada posisi tersebut adalah "X", jika tidak, maka karakternya adalah "O".
-    Setelah selesai membentuk satu baris, baris tersebut ditambahkan ke dalam list pattern.
-    Dilakukan penggabungan seluruh baris pada pola dengan menggunakan "\n".join(pattern) untuk menghasilkan output dalam bentuk tabel.
-    Output pola yang dihasilkan akan dikembalikan oleh fungsi.
-    Dilakukan penggunaan fungsi dengan contoh penggunaan di mana N1, N2, N3, dan N4 adalah bilangan ganjil yang diberikan.
-    Output dari fungsi generate_pattern akan ditampilkan dalam bentuk tabel.
-    <img src= "Tes Logika Front end Develop/Imputan N dengan N.jpg"</br>
-</details>
-# refrensi
-</details>
-<p>
-    <a href="https://repository.unmul.ac.id/bitstream/handle/123456789/4927/Buku%20Algoritma%20dan%20Pemrograman.pdf?sequence=1" /></a>
-    <a href="https://ocw.upj.ac.id/files/GBPP-TIF301-Handout-DPBO.pdf" /></a>
-    <a href="https://ocw.upj.ac.id/files/GBPP-TIF301-Handout-DPBO.pdf](https://jagongoding.com/python/latihan-logika/bilangan-prima/)" /></a>
-</p>
+### Jawaban
+
+```jsx
+import React, { useState } from 'react';
+import { useForm } from 'react-hook-form';  //saya menggunakan react hook form untuk validasi login
+import { Helmet } from 'react-helmet'; //react helmet berfungsi untuk merubah title di website kita
+
+export default function Register() {
+  //state
+  const [showPassword, setShowPassword] = useState(false);
+
+  //declare form
+  const {
+    register,
+    watch,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  //handle form
+  const handleRegister = (data) => {
+    localStorage.setItem(data, JSON.stringify("user"))
+    .then(res => console.info(res))
+    .catch(err => console.error(err))
+  };
+
+  //toggle password
+  const togglePassword = () => {
+    setShowPassword(!showPassword); //disini saya menggunakan conditional rendering untuk menampilkan/menghide password
+  };
+
+  return (
+    <>
+			//react helmet yang saya sebut diatas tadi, dan berikut pengaplikasikannya
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Register</title>
+        <meta name="judul" content="register" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      </Helmet>
+      <div className="w-screen min-h-screen flex justify-center items-center">
+        <form className="w-[500px] flex flex-col gap-4 p-4 bg-slate-200 shadow-lg rounded-md" onSubmit={handleSubmit(handleRegister)} autoComplete="off">
+          <div className="w-full flex flex-col gap-2">
+            <label htmlFor="text">Email</label>
+            <input
+              type="text"
+              id="email"
+              {...register('email', {
+                required: {
+                  value: true,
+                  message: 'email harus diisi',
+                },
+                pattern: {
+                  value: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
+                  message: 'email tidak valid!',
+									//pattern dari react hook form untuk memfalidasi email, agar user harus memasukan email yang valid
+									//disini saya menggunakan regex untuk memfalidasinya 
+									//hal yang sama saya gunakan di password
+                },
+              })}
+              className={`h-10 border-none outline-none px-2 ${errors.email && 'ring-2 ring-red-300'}`}
+            />
+
+            {errors?.email && <small className="text-red-500">{errors?.email.message}</small>}
+          </div>
+
+          <div className="w-full flex flex-col gap-2">
+            <label htmlFor="password">Password</label>
+            <input
+              type={showPassword ? 'text' : 'password'}
+              id="password"
+              {...register('password', {
+                required: {
+                  value: true,
+                  message: 'password harus diisi',
+                },
+                pattern: {
+                  value: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,32}$/,
+                  message: 'Minimal 8 karakter, maximal 32 karakter, setidaknya satu huruf besar, satu huruf kecil, satu angka dan satu karakter khusus',
+                },
+              })}
+              className="h-10 border-none outline-none px-2"
+            />
+
+            {errors?.password && <small>{errors?.password.message}</small>}
+          </div>
+
+          <div className="w-full flex flex-col gap-2">
+            <label htmlFor="password">Ulangi Password</label>
+            <input
+              type={showPassword ? 'text' : 'password'}
+              id="password2"
+              {...register('password2', {
+                required: {
+                  validate: (value) => {
+                    if (watch('password') != value) {
+                      return (errors.password2 = 'password harus sama');
+											//validai untuk mengecek password
+                    }
+                  },
+                },
+              })}
+              className={`h-10 border-none outline-none px-2 ${errors.password2 && 'ring-2 ring-red-300'}`}
+            />
+
+            {errors?.password2 && <small>{errors?.password2.message}</small>}
+
+          </div>
+          <button type="button" onClick={togglePassword}>
+					//berikut implementasi untuk button show / hide password
+            Tampilkan password 
+          </button>
+          <button className="h-10 bg-blue-500 text-white px-5 rounded-md">Register</button>
+        </form>
+      </div>
+    </>
+  );
+}
+```
+
+### Hasilnya :
+
+![login1]()
+
+
+Ketika user memasukan email yang tidak valid, maka akan muncul sebuah warning
+
+![login2]()
+
+
+![login3]()
+
+
+Referenci : react-hook form
+
+Dan berikut adalah ketika user menginputkan data yang benar, maka validasinya tidak muncul, saat user meng-klik tombol tampilkan password maka user dapat melihat passwordnya.
+
+# **TES Front End**
+
+Buat halaman untuk mengubah foto profil dengan ketentuan sebagai berikut
+
+1. Buka figma berikut [https://www.figma.com/file/hAxLcsE9GYU2S0o6TQaL7Z/Change-Profile-Test?node-id=0%3A1](https://www.figma.com/file/hAxLcsE9GYU2S0o6TQaL7Z/Change-Profile-Test?node-id=0%3A1)
+2. Implementasikan figma di atas ***semirip mungkin***
+3. Ketika pilih ambil dari kamera, halaman akan berpindah ke halaman ambil foto (sesuai figma). Hasil tangkapan kamera akan dipotong (crop) dan dikompres secara otomatis sesuai bingkai.
+4. Ketika ambil dari galeri, pengguna akan memilih 1 gambar dari galeri kemudian kembali ke aplikasi agar gambar dapat dipotong (crop) dan dikompres.
+5. Untuk tampilan web desktop, bagian kanan dan kiri diberi warna #212121 , jadi tampilan seperti mobile app
